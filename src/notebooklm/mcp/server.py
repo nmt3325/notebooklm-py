@@ -81,6 +81,7 @@ def register_all(mcp: FastMCP) -> None:
         research,
         sharing,
         sources,
+        source_assets,
         sources_drive,
         sources_playbooks,
         studio,
@@ -89,6 +90,7 @@ def register_all(mcp: FastMCP) -> None:
     for module in (
         notebooks,
         sources,
+        source_assets,
         sources_drive,
         sources_playbooks,
         chat,
